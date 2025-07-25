@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upcoming Events - RIT University</title>
+    <link rel="icon" href="logo.jpg">
+    <style>
+        body {
+            margin: 20; padding: 150px;
+            background-image: url('rit.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0,0,0,0.55);
+            position: fixed; top: 0; left: 0;
+            width: 100%; height: 150%;
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+        .event-list {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .event {
+            background-color: rgba(255,255,255,0.2);
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .event h2 {
+            margin: 0 0 10px;
+            color: #ffd700;
+        }
+        a.back-btn {
+            display: block;
+            width: 120px;
+            margin: 30px auto 0;
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a.back-btn:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <h1>Upcoming Events at RIT University</h1>
+
+    <div class="event-list">
+        <div class="event">
+            <h2>Annual Tech Symposium</h2>
+            <p><b>Date:</b> August 15, 2025</p>
+            <p><b>Location:</b> Main Auditorium</p>
+            <p>Join us for a day of innovation, guest lectures, and student showcases.</p>
+        </div>
+        <div class="event">
+            <h2>Freshers' Welcome Party</h2>
+            <p><b>Date:</b> September 1, 2025</p>
+            <p><b>Location:</b> Student Union Hall</p>
+            <p>Music, dance, and fun activities organized by the student council.</p>
+        </div>
+        <!-- Add more events here -->
+    </div>
+
+    <a class="back-btn" href="project6.html">Back to Home</a>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Form Example</title>
+</head>
+
+<body style="margin: 11; 
+             padding: 11; 
+             background-image: url('collegeimg.jpg'); 
+             background-size: cover; 
+             background-repeat: no-repeat; 
+             background-position: center; 
+             font-family: Arial, sans-serif; 
+             color: white;">
+
+    <!-- Transparent overlay -->
+    <div style="background-color: rgba(0, 0, 0, 0.404); 
+                position: absolute; 
+                top: 0; 
+                left: 0; 
+                width: 100%; 
+                height: 100%; 
+                z-index: -1;"></div>
+
+    <center>
+        <h1>ENTER DETAILS</h1>
+
+        <form action="/submit" method="POST" enctype="multipart/form-data"
+              style="background-color: rgba(255, 255, 255, 0.10); 
+                     padding: 30px; 
+                     border-radius: 10px; 
+                     width: 60%; 
+                     color: white;">
+
+            <label><b>Name:</b></label><br />
+            <input type="text" /><br /><br />
+
+            <label><b>Email:</b></label><br />
+            <input type="email" /><br /><br />
+
+            <label><b>register number:</b></label><br />
+            <input type="number" /><br /><br />
+
+            <label><b>Phone:</b></label><br />
+            <input type="tel" placeholder="+1234567890" /><br /><br />
+
+           <!--<label><b>Date of Birth:</b></label><br />
+            <input type="date" /><br /><br />
+
+            <label><b>Appointment Time:</b></label><br />
+            <input type="time" /><br /><br />-->
+
+            <label><b>Gender:</b></label><br />
+            <input type="radio" name="gender" value="male" /> Male<br />
+            <input type="radio" name="gender" value="female" /> Female<br />
+            <input type="radio" name="gender" value="other" /> Other<br /><br />
+
+            <label><b>Interests:</b></label><br />
+            <input type="checkbox" value="sports" /> Sports<br />
+            <input type="checkbox" value="music" /> Music<br />
+            <input type="checkbox" value="movies" /> Movies<br /><br />
+
+            <label><b>Languages Spoken:</b></label><br />
+            <select multiple size="4">
+                <option>English</option>
+                <option>Spanish</option>
+                <option>French</option>
+                <option>Tamil</option>
+            </select><br /><br />
+
+            <label><b>Bio:</b></label><br />
+            <textarea rows="4" cols="50" placeholder="Tell us about yourself"></textarea><br /><br />
+
+            <label><b>Upload Profile Picture:</b></label><br />
+            <input type="file" accept="image/*" /><br /><br />
+
+            <input type="hidden" name="userid" value="12345" />
+
+            <!-- Buttons in one line -->
+            <div>
+               <button type="submit">Submit</button> 
+                <button type="reset">Reset</button>
+                <a href="project6.html"><button type="button">Back to Home</button></a>
+            </div>
+        </form>
+    </center>
+
+</body>
+</html>

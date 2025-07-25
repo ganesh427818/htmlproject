@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Courses Offered - RIT University</title>
+    <link rel="icon" href="logo.jpg">
+    <style>
+        body {
+            margin: 0; padding: 20px;
+            background-image: url('rit.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0,0,0,0.55);
+            position: fixed; top: 0; left: 0;
+            width: 150%; height: 300%;
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        ul.courses {
+            max-width: 600px;
+            margin: 0 auto;
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+            list-style-type: none;
+            font-size: 1.1em;
+        }
+        ul.courses li {
+            background-color: rgba(255,255,255,0.2);
+            margin-bottom: 10px;
+            padding: 10px;
+            border-radius: 5px;
+        }
+        a.back-btn {
+            display: block;
+            width: 120px;
+            margin: 30px auto 0;
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a.back-btn:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <h1>Courses Offered at RIT University</h1>
+
+    <ul class="courses">
+        <li>Bachelor of Technology (B.Tech) in Computer Science Engineering</li>
+        <li>Bachelor of Technology (B.Tech) in Electronics and Communication Engineering</li>
+        <li>Bachelor of Technology (B.Tech) in Mechanical Engineering</li>
+        <li>Master of Technology (M.Tech) in Data Science</li>
+        <li>Master of Business Administration (MBA)</li>
+        <!-- Add more courses as needed -->
+    </ul>
+
+    <a class="back-btn" href="project6.html">Back to Home</a>
+</body>
+</html>

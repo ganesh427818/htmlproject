@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Alumni Network - RIT University</title>
+    <link rel="icon" href="logo.jpg" />
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            background-image: url('rit.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            font-family: Arial, sans-serif;
+            color: white;
+        }
+        .overlay {
+            background-color: rgba(0,0,0,0.55);
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            z-index: -1;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .alumni-list {
+            max-width: 700px;
+            margin: 0 auto;
+            background-color: rgba(255,255,255,0.1);
+            padding: 20px;
+            border-radius: 8px;
+        }
+        .alumnus {
+            background-color: rgba(255,255,255,0.2);
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .alumnus h3 {
+            margin: 0 0 8px;
+            color: #ffd700;
+        }
+        a.back-btn {
+            display: block;
+            width: 120px;
+            margin: 30px auto 0;
+            text-align: center;
+            background-color: #004080;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: bold;
+        }
+        a.back-btn:hover {
+            background-color: #0066cc;
+        }
+    </style>
+</head>
+<body>
+    <div class="overlay"></div>
+
+    <h1>Alumni Network of RIT University</h1>
+
+    <div class="alumni-list">
+        <div class="alumnus">
+            <h3>Jane Doe</h3>
+            <p>Class of 2010, Software Engineer at Google</p>
+        </div>
+        <div class="alumnus">
+            <h3>John Smith</h3>
+            <p>Class of 2012, Product Manager at Microsoft</p>
+        </div>
+        <div class="alumnus">
+            <h3>Emily Johnson</h3>
+            <p>Class of 2015, Data Scientist at Amazon</p>
+        </div>
+    </div>
+
+    <a class="back-btn" href="project6.html">Back to Home</a>
+</body>
+</html>
